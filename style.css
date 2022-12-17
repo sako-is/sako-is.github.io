@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Syncopate&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+/*
+* 44355b
+* 31263E
+* 221E22
+* ECA72C
+* EE5622
+2d3142
+4F5D75
+BFC0C0
+E15554
+EF8354
+*/
+
+body, html {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    background-color: #4F5D75;
+    height: 100%;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#space {
+    font-family: 'Josefin Sans', sans-serif;
+    white-space: pre-line;
+    font-size: 20px;
+}
+
+.lang {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    border: none;
+    background-color: transparent;
+    font-size: 30px;
+    display: flex;
+    height: 100%;
+}
+
+#titlebg {
+    background-image: url(assets/background2.png);
+}
+
+#title {
+    font-family: 'Alegreya Sans SC', 'Helvetica Neue', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 72px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    white-space: pre-line;
+    color: #2d3142;
+    padding: 0%;
+    margin: 0%;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+}
+
+#body {
+    font-family: 'Josefin Sans', 'Helvetica Neue', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-size: 30px;
+    background-color:#A5CDDD;
+    padding: 2%;
+    margin: 0%;
+}
+
+.link {
+    text-decoration: none;
+}
