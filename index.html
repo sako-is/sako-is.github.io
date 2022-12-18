@@ -16,14 +16,14 @@
     <script src="scripts/script.js"></script>
 </head>
 <body>
-    <div id="titlebg" class="container">
+    <div id="titlebg">
         <div>
-            <div id="title" style="white-space:pre-line;">
+            <div class="container" id="title" style="white-space:pre-line;">
                 <b id="name">Said Isazada</b>
             </div>
-            <div style="white-space:pre-line;" class="container" x-data="{ open: false }">
-                <button class="lang" x-on:click="open = ! open" x-show="!open" x-transition>↓</button>
-                <button class="lang" x-on:click="open = ! open" x-show="open" x-transition>↑</button><br>
+            <div style="white-space:pre-line;" class="container" id="lang" x-data="{ open: false }">
+                <button class="lang" x-on:click="open = ! open" x-show="!open">⮟</button>
+                <button class="lang" x-on:click="open = ! open" x-show="open">⮝</button>
                 <div class="lang" id="space" x-show="open" x-transition>
                     <button x-on:click="english()" class="lang">EN</button>
                     <button x-on:click="azeri()" class="lang">AZ</button>
@@ -33,10 +33,10 @@
             </div>
         </div>
     </div>
-        <div id="body">
+    <div id="body">
         <a class="link" style="display: grid;" href="https://github.com/sako-is/" target="_blank" rel="noopener noreferrer">github</a><br/>
         <a class="link" style="display: grid;" href="pages/projects.html" target="_blank" rel="noopener noreferrer">projects</a>
-        </div>
+    </div>
     <script src="" async defer></script>
 </body>
 </html>
