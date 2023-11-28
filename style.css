@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Syncopate&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Inter+Tight&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lexend&display=swap');
 /*
 * 44355b
 * 31263E
@@ -15,9 +15,20 @@ E15554
 EF8354
 */
 
+@font-face {
+    font-family: "Aktura";
+    src: url('assets/Aktura-Regular.otf');
+}
+
+@font-face {
+    font-family: "Literata";
+    src: url('assets/Literata-Variable.ttf');
+}
+
 body, html {
-    font-family: 'Josefin Sans', sans-serif;
-    background-color: #4F5D75;
+    font-family: 'Literata', sans-serif;
+    font-weight: 500;
+    background-color: #000;
     margin: 0%;
     height: 100%;
 }
@@ -27,7 +38,8 @@ body, html {
 }
 
 .lang {
-    font-family: 'Inter Tight', sans-serif;
+    font-size: 'Literata', serif;
+    font-weight: 100;
     border: none;
     background-color: transparent;
     font-size: 30px;
@@ -41,7 +53,6 @@ body, html {
 }
 
 #space {
-    font-family: 'Josefin Sans', sans-serif;
     white-space: pre-line;
     font-size: 20px;
 }
@@ -51,7 +62,6 @@ body, html {
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover;
-    /* position:fixed;  */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,20 +70,23 @@ body, html {
 }
 
 #title {
-    font-family: 'Inter Tight', 'Helvetica Neue', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Aktura', serif;
     font-size: 72px;
-    color: #2d3142;
+    color: #000;
+	text-align: center;
 }
 
 #lang {
+    font-size: 'Literata', serif;
+    font-weight: 300;
     position: absolute;
 }
 
 #body {
-    font-family: 'Josefin Sans', 'Helvetica Neue', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Literata', serif;
     text-align: left;
     font-size: 30px;
-    background-color:#A5CDDD;
+    background-color:#cdecf8;
     padding: 2%;
     margin: 0%;
     height: auto;
