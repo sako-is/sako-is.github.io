@@ -1,7 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Syncopate&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Inter+Tight&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lexend&display=swap');
 /*
 * 44355b
 * 31263E
@@ -23,6 +19,11 @@ EF8354
 @font-face {
     font-family: "Literata";
     src: url('assets/Literata-Variable.ttf');
+}
+
+@font-face {
+    font-family: "Romvel";
+    src: url('assets/Romvel.ttf') format("ttf");
 }
 
 body, html {
@@ -70,7 +71,7 @@ body, html {
 }
 
 #title {
-    font-family: 'Aktura', serif;
+    font-family: 'Aktura', 'Romvel', serif;
     font-size: 72px;
     color: #000;
 	text-align: center;
@@ -86,7 +87,7 @@ body, html {
     font-family: 'Literata', serif;
     text-align: left;
     font-size: 30px;
-    background-color:#cdecf8;
+    background-color: #cdecf8;
     padding: 2%;
     margin: 0%;
     height: auto;
