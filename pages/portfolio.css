@@ -1,63 +1,89 @@
+@font-face {
+    font-family: "Literata";
+    src: url('../assets/Literata-Variable.ttf');
+}
+
+@font-face {
+    font-family: "Literata Italic";
+    src: url('../assets/Literata-Italic-Variable.ttf');
+}
+
+body, html {
+    font-family: 'Literata';
+    font-weight: 400;
+    background-color: #000;
+	color: #fff;
+}
+
+h1 {
+	font-family: 'Literata Italic';
+	font-weight: 900;
+	font-size: 2em;
+}
+
 #portfoliobg {
-    background-position: center; /* Center the image */
-    background-size: cover;
-    display: flex;
+	display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100%;
+    height: 10%;
 }
 
-#portfolio {
-    font-family: 'Aktura', 'Goth Cyrillic';
-    font-size: 72px;
-    color: #fff;
+.link {
+	font-family: 'Literata Italic';
+	font-weight: 600;
+	text-align: center;
+	padding-bottom: 2%;
+}
+
+.center {
 	text-align: center;
 }
 
-.blender {
-    position: absolute;
-    top: 60%;
-    left: 10%;
+.content {
+    background-color: #000000;
+	width: 100%;
 }
 
-.blender-1 {
-    position: absolute;
-    top: 20%;
-    left: 50%;
-}
-@keyframes decrease {
-    from { width: 30%; height: 30%; }
-    to { width: 20%; height: 20%; }
-}
-
-img {
-    width: 20%;
-    height: 20%;
-    filter: saturate(50%);
-    animation-name: decrease;
-    animation-duration: 2s;
+.content-img {
+	background-color: #000000;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 80%;
+	max-height: 90%;
+	background-size: cover;
 }
 
-@keyframes increase {
-    from { width: 20%; height: 20%; filter: saturate(50%); }
-    to { width: 30%; height: 30%; filter: saturate(100%); }
+.dev-ss {
+	margin-left: 10%;
+	margin-right: auto;
+	align-items: center;
+	text-align: center;
+	max-width: 80%;
+	max-height: 20%;
 }
 
-img:hover {
-    width: 30%;
-    height: 30%;
-    filter: saturate(100%);
-    animation-name: increase;
-    animation-duration: 2s;
+.dev-img {
+	display: inline-flex;
+	justify-content: center;
+	max-width: 30%;
+	padding-top: 1%;
+	padding-right: 1%;
 }
 
-.overlay {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(51,51,51,0.7);
-    z-index: 10;
+.content-caption {
+	background-color: #000000;
+	margin-left: 10%;
+	padding-bottom: 5%; 
 }
+
+#portfolio {
+	background-color: #000000;
+    font-family: 'Aktura', 'Goth Cyrillic';
+    font-size: 72px;
+    color: #fff;
+	padding-top: 2%;
+    text-align: center;
+}
+

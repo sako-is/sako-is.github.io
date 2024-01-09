@@ -1,0 +1,63 @@
+#portfoliobg {
+    background-position: center; /* Center the image */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#portfolio {
+    font-family: 'Aktura', 'Goth Cyrillic';
+    font-size: 72px;
+    color: #fff;
+	text-align: center;
+}
+
+.blender {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+}
+
+.blender-1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+@keyframes decrease {
+    from { width: 30%; height: 30%; }
+    to { width: 20%; height: 20%; }
+}
+
+img {
+    width: 20%;
+    height: 20%;
+    filter: saturate(50%);
+    animation-name: decrease;
+    animation-duration: 2s;
+}
+
+@keyframes increase {
+    from { width: 20%; height: 20%; filter: saturate(50%); }
+    to { width: 30%; height: 30%; filter: saturate(100%); }
+}
+
+img:hover {
+    width: 30%;
+    height: 30%;
+    filter: saturate(100%);
+    animation-name: increase;
+    animation-duration: 2s;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(51,51,51,0.7);
+    z-index: 10;
+}
