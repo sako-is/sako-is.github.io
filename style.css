@@ -82,13 +82,3 @@ body, html {
     font-weight: 300;
     position: absolute;
 }
-
-#body {
-    font-family: 'Literata', serif;
-    text-align: left;
-    font-size: 30px;
-    background-color: #cdecf8;
-    padding: 2%;
-    margin: 0%;
-    height: auto;
-}

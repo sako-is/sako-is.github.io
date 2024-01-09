@@ -11,25 +11,33 @@
 		<meta name="description" content="Projects">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="../style.css">
-		<script defer src="https://unpkg.com/@alpinejs/persist@3.x.x/dist/cdn.min.js"></script>
-		<script src="https://unpkg.com/alpinejs" defer></script>
-        <link rel="stylesheet" href="portfolio.css">
+		<link rel="stylesheet" href="port.css">
 	</head>
 	<body>
-		<span class="container" id="portfoliobg">
+		<span id="portfoliobg">
 			<b id="portfolio">Portfolio</b>
 		</span>
-		<a class="link" style="text-align: center;" href="../index.html">Home</a>
-		<div x-data="{open: false}" style="margin: 2%" class="blender">
-			<img xon:click="open = ! open" width="20%" height="20%" src="../assets/background2.png" alt="Blender Project"/>
-			<div>Project made in Blender (2023)</div>
-			<div x-show="open">
-			    <img class="overlay" src="../assets/background2.png" alt="Blender Project"/>
+		<a class="link" href="../index.html">Home</a>
+		<div class="content">
+			<img class="content-img" src="../assets/background2.png" alt="Blender Project"/>
+			<div class="content-caption">
+				<h1>Cold Mountains</h1>
+				<div>Project made in Blender (2023)</div>
 			</div>
 		</div>
-		<div style="margin: 2%" class="blender-1">
-			<img width="30%" height="30%" src="../assets/hallway2cycles.png" alt="A bright hallway">
-			<div>A bright hallway made in blender (2021)</div>
+		<div class="content">
+			<img class="content-img" src="../assets/hallway2cycles.png" alt="A bright hallway">
+			<div class="content-caption">
+				<h1>Hallway</h1>
+				<div>A bright hallway made in blender (2021)</div>
+			</div>
+		</div>
+		<div class="content">
+			<img class="content-img" src="../assets/explosion.png" alt="Explosion">
+			<div class="content-caption">
+				<h1>Explosion</h1>
+				<div>An explosion I made for a project in my Spanish class (2022)</div>
+			</div>
 		</div>
 	</body>
 </html>
