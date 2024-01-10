@@ -29,13 +29,19 @@ EF8354
 body, html {
     font-family: 'Literata', sans-serif;
     font-weight: 500;
-    background-color: #000;
-    margin: 0%;
+	font-size: 24px;
+    background-color: #191724;
     height: 100%;
 }
 
 .container {
     display: flex;
+}
+
+#body {
+	margin-left: 3%;
+	background-color: #191724;
+	color: #fff;
 }
 
 .lang {
@@ -81,4 +87,11 @@ body, html {
     font-size: 'Literata', serif;
     font-weight: 300;
     position: absolute;
+}
+
+#bottom {
+	position: absolute;
+	bottom: 0;
+	color: white;
+	text-decoration: none;
 }

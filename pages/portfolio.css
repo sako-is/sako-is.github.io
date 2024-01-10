@@ -18,7 +18,7 @@ body, html {
 h1 {
 	font-family: 'Literata Italic';
 	font-weight: 900;
-	font-size: 2em;
+	font-size: 2rem;
 }
 
 #portfoliobg {
@@ -38,6 +38,7 @@ h1 {
 
 .center {
 	text-align: center;
+	font-size: 0.8rem;
 }
 
 .content {
@@ -75,13 +76,14 @@ h1 {
 .content-caption {
 	background-color: #000000;
 	margin-left: 10%;
-	padding-bottom: 5%; 
+	margin-right: 10%;
+	padding-bottom: 10%; 
 }
 
 #portfolio {
 	background-color: #000000;
     font-family: 'Aktura', 'Goth Cyrillic';
-    font-size: 72px;
+    font-size: 4rem;
     color: #fff;
 	padding-top: 2%;
     text-align: center;
